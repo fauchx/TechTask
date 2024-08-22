@@ -17,7 +17,7 @@ function HistorialClima() {
   return (
     <div>
       {
-        loading ? "chaqueta" : (
+        loading ? <p className='items-center justify-center text-2xl font-bold'>Loading Weathers...</p> : (
                 <div className='relative  overflow-x-auto '>
               <table className='max-w-2xl mx-auto roudned-sm text-md text-left'>
                   <thead className='text-sm bg-emerald-200 uppercase'>
